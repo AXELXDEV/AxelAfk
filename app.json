@@ -25,8 +25,7 @@
         },
         "MONGO_DB_URI": {
             "description": "ENTER MONGODB",
-            "required": true 
-        
+            "required": true  
         }
     },
     "addons": [],
