@@ -1,37 +1,48 @@
 {
-    "name": "Axel Afk Bot",
+    "name": "• Afk Bot",
+    "description": "DEPLOY AFK BOT",
     "logo": "https://telegra.ph/file/ad9912352a2b8fc3bd3d8.jpg",
-    "description": "An Advanced Premium Afk Bot For Telegram Groups VC.",
-    "keywords": ["Axel", "Afk Bot", "telegram"],
-    "repository": "https://github.com/AXELXDEV/AxelAfk",
-    "stack": "container",
+    "keywords": [
+        "Telegram",
+    ],
+    "repository": "https://github.com/Desinobita",
     "env": {
         "API_ID": {
-            "description": "Your App ID",
+            "description": "Api Id Get this value from my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "Your App Hash",
+            "description": "Api hash get this value from my.telegram.org",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Put Bot Token Of Your Bot",
+            "description": "Get From @BotFather",
             "required": true
         },
-        "SUDO_USER": {
-            "description": "Enter Sudo User ID",
-            "required": true
+        "SUDO_USERS": {
+            "description": "Sudo Users id space by space (Users who can control bot)",
+            "required": true 
         },
         "MONGO_DB_URI": {
-            "description": "Enter MongoDB"
-            "required": true
+            "description": "ENTER MONGODB",
+            "required": true 
+        
+        }
     },
+    "addons": [],
     "buildpacks": [
-    {
-      "url": "heroku/python"
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ]
+    "stack": "container"
 }
