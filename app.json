@@ -1,0 +1,37 @@
+{
+    "name": "Axel Afk Bot",
+    "logo": "https://telegra.ph/file/ad9912352a2b8fc3bd3d8.jpg",
+    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "keywords": ["Axel", "Afk Bot", "telegram"],
+    "repository": "https://github.com/AXELXDEV/AxelAfk",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your App Hash",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Put Bot Token Of Your Bot",
+            "required": true
+        },
+        "SUDO_USER": {
+            "description": "Enter Sudo User ID",
+            "required": true
+        },
+        "MONGO_DB_URI": {
+            "description": "Enter MongoDB"
+            "required": true
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
