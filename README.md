@@ -11,43 +11,8 @@
     
 
 # Axel AFK Bot
-A Powerful Telegram AFK Bot written in pyrogram using MongoDB as database and with so many interactive features.
-
-## 🖇 Prerequisites
-
-- [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
-- [Telegram Bot Token](https://t.me/botfather)
-- [MongoDB URI](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
+A Powerful Telegram AFK Bot written in pyrogram using MongoDB as database. 
 
 
-## 🖇 VPS Deployment
-
-```console
-shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiAFKBot
-shikhar@MacBook~ $ cd YukkiAFKBot
-shikhar@MacBook~ $ pip3 install -r requirements.txt
-shikhar@MacBook~ $ mv sample.env .env
-```
-> Edit .env with your values and then start bot with
-
-```console
-shikhar@MacBook~ $ python3 -m Yukki
-```
-
-## 🗂 License
-
-This project is licensed under the **GNU General Public License v3**. All designs were created by [@NotReallyShikhar](https://github.com/NotReallyShikhar) .
-
-See [LICENSE](LICENSE) for more information.
-
-
-
-## 🥹 Acknowledgements
-
-Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
-
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [TheHamkerCat](https://github.com/TheHamkerCat)
-
-Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
+### DEPLOY
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
