@@ -4,5 +4,5 @@ RUN apt-get install git -y
 RUN pip3 install -U pip
 COPY . /Yukki/
 WORKDIR /Yukki/
-RUN pip3 install -U -r Installer
+RUN pip3 install -U -r requirements.txt 
 CMD python3 -m Yukki
