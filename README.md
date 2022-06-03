@@ -15,4 +15,4 @@ A Powerful Telegram AFK Bot written in pyrogram using MongoDB as database.
 
 
 ### DEPLOY
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AXELXDEV/AXELAfk)
