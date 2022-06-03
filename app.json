@@ -1,7 +1,7 @@
 {
     "name": "Axel Afk Bot",
     "logo": "https://telegra.ph/file/ad9912352a2b8fc3bd3d8.jpg",
-    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "description": "An Advanced Premium Afk Bot For Telegram Groups VC.",
     "keywords": ["Axel", "Afk Bot", "telegram"],
     "repository": "https://github.com/AXELXDEV/AxelAfk",
     "stack": "container",
