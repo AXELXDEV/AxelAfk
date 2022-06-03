@@ -10,7 +10,7 @@
 </p>
     
 
-# Yukki AFK Bot
+# Axel AFK Bot
 A Powerful Telegram AFK Bot written in pyrogram using MongoDB as database and with so many interactive features.
 
 ## 🖇 Prerequisites
