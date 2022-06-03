@@ -1,15 +1,13 @@
 {
-    "name": "• ArrayCore : 2022 - 2022 •",
-    "description": "- A Multi Clients telegram Group voice Call Userbots. ArrayCore Having Many Features.",
-    "logo": "https://telegra.ph/file/b918befe58de65045878c.jpg",
+    "name": "• AFK BOT •",
+    "description": " • AFK BOT •",
+    "logo": "https://telegra.ph/file/ad9912352a2b8fc3bd3d8.jpg",
     "keywords": [
         "Telegram",
-        "VCBot",
-        "MusicPlayer",
-        "ArrayCore",
-        "vcraid"
+        "AFKBot",
+        "USERAFK"
     ],
-    "repository": "https://github.com/Desinobita",
+    "repository": "https://github.com/AXELXDEV",
     "env": {
         "API_ID": {
             "description": "..",
